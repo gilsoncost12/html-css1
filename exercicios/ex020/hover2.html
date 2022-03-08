@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Criando menu com div</title>
+    <style>
+        div > p{  
+            display: none;
+        }
+        div:hover > p{
+            width: 53px;
+            display: block;
+            background-color: lightgreen;
+            border: 1px solid black;
+            padding: 10px;
+            color: darkslategrey;
+            margin-left: 40px;
+        }
+        div{
+            color:gold;
+            border: 1px solid black;
+            width: 170px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        Passe o mouse sobre mim!
+        <p>Notícias</p>
+    </div>
+</body>
+</html>
